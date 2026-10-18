@@ -1,28 +1,49 @@
 ```mermaid
 flowchart LR
-    subgraph PK["Perangkat Kamar"]
-        S1["Sensor suhu dan kelembapan<br/>DHT22"]
-        M["Mikrokontroler<br/>ESP32"]
-        L["Lampu + relay"]
+    subgraph PK["Block: Perangkat Kamar"]
+        direction TB
+        IFS["«interface»<br/><b>IDataSensor</b>"]
+        IFL["«interface»<br/><b>IKontrolLampu</b>"]
+        S1["Module<br/>Sensor suhu dan kelembapan DHT22"]
+        M["Module<br/>Mikrokontroler ESP32"]
+        L["Module<br/>Lampu + relay"]
+        M -.-> IFS
+        M -.-> IFL
+        S1 --- IFS
+        L --- IFL
     end
 
-    subgraph SV["Server"]
-        B["Backend API"]
-        D[("Database")]
-        T["Digital Twin<br/>model virtual kamar"]
-        K["Modul perhitungan kondisi<br/>suhu dan kelembapan"]
+    subgraph SV["Block: Server"]
+        direction TB
+        B["Module<br/>Backend API"]
+        D["Module<br/>Database"]
+        T["Module<br/>Digital Twin: model virtual kamar"]
+        K["Module<br/>Modul perhitungan kondisi suhu dan kelembapan"]
+        PB(( ))
+        PD(( ))
+        PT(( ))
+        PK2(( ))
+        B --- PB
+        D --- PD
+        T --- PT
+        K --- PK2
+        B -.-> PD
+        B -.-> PT
+        T -.-> PK2
     end
 
-    subgraph KL["Klien"]
-        U["Dashboard web / mobile"]
+    subgraph KL["Block: Klien"]
+        U["Module<br/>Dashboard web / mobile"]
     end
 
-    S1 --> M
-    L <--> M
-    M -- "MQTT / HTTP" --> B
-    B --> D
-    B --> T
-    T --> K
-    T --> U
-    U -- "perintah lampu" --> B
+    M -. "MQTT / HTTP" .-> PB
+    U -. "perintah lampu" .-> PB
+    U -. "data kondisi kamar" .-> PT
+
+    classDef comp fill:#fff,stroke:#000,color:#000
+    classDef iface fill:#fff,stroke:#000,color:#000
+    classDef lolli fill:#fff,stroke:#000,stroke-width:1.5px
+    class S1,M,L,B,D,T,K,U comp
+    class IFS,IFL iface
+    class PB,PD,PT,PK2 lolli
 ```
