@@ -44,8 +44,6 @@ Ruangan Normal
 
 ### 2.1 Rancangan UX/UI
 
-Tautan Figma: [Wireframe Digital Twin Kamar Kos](https://www.figma.com/GANTI-DENGAN-TAUTAN-KALIAN)
-
 Daftar layar:
 
 | No | Layar | Fungsi |
