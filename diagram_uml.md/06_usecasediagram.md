@@ -1,24 +1,30 @@
 ```mermaid
 flowchart LR
-    P(["Penghuni"])
-    O(["Pemilik kos"])
-    M(["ESP32 + DHT22"])
+    P["Penghuni"]
+    T["Teknisi"]
+    B["Backend API"]
 
-    subgraph SYS["Sistem Digital Twin Kamar Kos"]
-        UC1(["Lihat suhu dan kelembapan"])
-        UC2(["Lihat status kondisi kamar"])
-        UC3(["Hitung kondisi kamar"])
-        UC4(["Kontrol lampu"])
-        UC5(["Lihat riwayat data"])
-        UC6(["Kelola data kamar"])
-        UC7(["Kirim data sensor"])
+    subgraph SYS["«subsystem»<br/>Digital Twin Kamar Kos"]
+        UC1(["Lihat Suhu dan Kelembapan"])
+        UC2(["Lihat Kondisi Kamar"])
+        UC3(["Nyalakan Lampu"])
+        UC4(["Matikan Lampu"])
+        UC5(["Maintenance Sensor"])
+        UC6(["Perbaikan Perangkat"])
     end
 
     P --- UC1
     P --- UC2
+    P --- UC3
     P --- UC4
-    O --- UC5
-    O --- UC6
-    M --- UC7
-    UC2 -. include .-> UC3
+
+    T --- UC5
+    T --- UC6
+
+    UC1 --- B
+    UC2 --- B
+    UC3 --- B
+    UC4 --- B
+    UC5 --- B
+    UC6 --- B
 ```
