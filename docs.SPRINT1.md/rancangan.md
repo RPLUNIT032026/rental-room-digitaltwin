@@ -36,13 +36,10 @@ Lampu = ON
 
 Ruangan Normal
 
-
-```mermaid
-
-
 ## 2. Dokumen Desain & Arsitektur (Project Setup & UX Design)
 
 ### 2.1 Rancangan UX/UI
+
 
 Daftar layar:
 
@@ -75,6 +72,7 @@ Sketsa wireframe layar Dashboard Kamar:
 | Home | Twin | Riwayat | Atur   |
 +--------------------------------+
 ```
+
 
 ### 2.2 Rancangan Sistem
 
