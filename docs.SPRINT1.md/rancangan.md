@@ -39,6 +39,7 @@ Ruangan Normal
 
 ```mermaid
 
+
 ## 2. Dokumen Desain & Arsitektur (Project Setup & UX Design)
 
 ### 2.1 Rancangan UX/UI
@@ -67,7 +68,7 @@ Sketsa wireframe layar Dashboard Kamar:
 |  |  28 C     |  |  65 %     |  |
 |  +-----------+  +-----------+  |
 |  +--------------------------+  |
-|  |  LAMPU        [ ON | OFF ]|  |
+|  |  LAMPU       [ ON | OFF ]|  |
 |  +--------------------------+  |
 |  +--------------------------+  |
 |  |  Grafik 24 jam terakhir  |  |
