@@ -83,10 +83,3 @@ Buat repository baru dengan nama:
 ```text
 digital-twin-kamar-sewaan
 ```
-
----
-
-  <rect x="530" y="115" width="120" height="80" rx="12" fill="#FFF8E1" stroke="#F9A825" stroke-width="2"/>
-  <text x="590" y="150" text-anchor="middle" font-size="18" font-weight="bold" fill="#E65100">ESP32</text>
-  <text x="590" y="172" text-anchor="middle" font-size="12" fill="#6D4C41">Wi-Fi</text>
-  <circle cx="548" cy="132" r="5" f
