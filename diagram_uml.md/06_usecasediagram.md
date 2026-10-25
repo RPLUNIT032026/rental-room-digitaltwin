@@ -42,3 +42,52 @@ flowchart LR
     UC11 --- ESP32
     UC12 --- ESP32
 ```
+
+flowchart LR
+    Penghuni(["👤 Penghuni"])
+    Admin(["👤 Pemilik Kos / Admin"])
+    Teknisi(["👤 Teknisi"])
+    ESP32(["👤 ESP32 + Sensor DHT22"])
+
+    subgraph DT ["«sistem» Digital Twin Kamar Kos"]
+        direction TB
+        UC1(["Lihat Dashboard Kondisi Kamar"])
+        UC2(["Pantau Suhu dan Kelembapan"])
+        UC3(["Kontrol Lampu"])
+        UC4(["Lihat Riwayat Data Sensor"])
+        UC5(["Kelola Data Kamar dan Penghuni"])
+        UC6(["Terima Notifikasi Kondisi Tidak Normal"])
+        UC7(["Sensor Data Kirim melalui MQTT/HTTP"])
+        UC8(["Terima Perintah Lampu"])
+        UC9(["Pantau Status Perangkat"])
+        UC10(["Sensor Kalibrasi"])
+        UC11(["Perawatan Perangkat"])
+        UC12(["Perbaikan Perangkat"])
+    end
+
+    Penghuni --- UC1
+    Penghuni --- UC2
+    Penghuni --- UC3
+    Penghuni --- UC6
+
+    Admin --- UC1
+    Admin --- UC4
+    Admin --- UC5
+    Admin --- UC6
+    Admin --- UC9
+
+    Teknisi --- UC9
+    Teknisi --- UC10
+    Teknisi --- UC11
+    Teknisi --- UC12
+
+    ESP32 --- UC7
+    ESP32 --- UC8
+
+    UC1 -. "«include»" .-> UC2
+    UC3 -. "«include»" .-> UC8
+    UC2 -. "«include»" .-> UC7
+    UC4 -. "«include»" .-> UC7
+    UC6 -. "«extend»" .-> UC2
+    UC10 -. "«extend»" .-> UC11
+    UC12 -. "«extend»" .-> UC9
