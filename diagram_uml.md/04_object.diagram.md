@@ -4,14 +4,14 @@
 classDiagram
     direction TB
 
-    class Agusz["Aguz : Penghuni"] {
-        id = P02
+    class agusz["agusz : Penghuni"] {
+        id = P002
         nama = Agusz Nugraha
         noHP = 085142219806
     }
 
     class KamarA01["A01 : Kamar"] {
-        noKamar = 02
+        noKamar = A02
         lantai = 2
         hargaSewa = 575.000
         status = Terisi
@@ -45,7 +45,7 @@ classDiagram
         kelembapan = 62
     }
 
-    Budi -- KamarA01
+    Aguz -- KamarA01
     KamarA01 -- Esp32
     Esp32 -- Dht22
     KamarA01 -- Lampu
