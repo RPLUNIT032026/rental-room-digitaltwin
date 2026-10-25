@@ -2,7 +2,7 @@
 ## Digital Twin Kamar Kos (rental-room-digitaltwin)
 
 - Tim: [Hajid,Bagus,Rafly]
-- Tanggal Inisiasi: 7 Desember 2026
+- Tanggal Inisiasi: 7 September 2026
 - Versi: 1.0
 
 ## 1. Latar Belakang
