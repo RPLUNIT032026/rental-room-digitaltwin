@@ -1,3 +1,17 @@
+# Halo Semuanya! 👋
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=welcome+guys+di+Profile+kami!;proyek+rental+room+Digital;kami!%F0%9F%9A%80" alt="Typing SVG" />
+  </a>
+</p>
+
+
+
+
+
+
+
 # 🚀 KELOMPOK RPL-AKT25.1 BADAZZZZZZ
 
 > 💙 **BISMILLAH NILAI BAGUSSSSSS** 💙  
