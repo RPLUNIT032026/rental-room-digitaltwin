@@ -6,11 +6,17 @@
   </a>
 </p>
 
+<!-- BANNER GELOMBANG WARNA BERGERAK -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Selamat%20Datang!%20👋&fontSize=42&fontColor=fff&animation=twinkling" width="100%" />
+</p>
 
-
-
-
-
+<!-- ANIMASI TEKS MENGETIK (TYPING EFFECT) -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=kami+ajid+agus+rapli;Suka+Eksplorasi+Teknologi+Baru;Mari+Bekerja+Sama!%F0%9F%9A%80" alt="Typing SVG" />
+  </a>
+</p>
 
 # 🚀 KELOMPOK RPL-AKT25.1 BADAZZZZZZ
 
