@@ -5,15 +5,10 @@
 > Semoga project kami berjalan lancar dan mendapatkan hasil yang baik dan nilai meroket._
 
 ---
-
-# 🗓️ Sprint 1 — 30 September 2026
-
 ## 💻 Rekayasa Perangkat Lunak
 
 **Kelompok:** RPL-AKT25.1 BADAZZZZZZ
-
 ---
-
 ## 👨‍💻 Anggota Tim
 
 | No | Nama | Username GitHub | Peran |
@@ -22,15 +17,7 @@
 | 🥈 2 | **Tri Bagus** | `@tri1bagusn` | 👨‍💻 Developer |
 | 🥉 3 | **Rafli Ahmad** | `@rafli14402` | 👨‍💻 Developer |
 
----
-
-# 🎯 Sprint Goal
-
-> 🟢 **Tujuan Sprint 1**
-
 **Kami akan membuat rancangan awal sistem Digital Twin Kamar Sewaan yang sederhana, mudah digunakan, dan dapat menampilkan kondisi kamar.**
-
-### Target Sprint
 
 - 🏠 Membuat konsep **Digital Twin Kamar Sewaan**
 - 🌡️ Menampilkan **suhu ruangan**
@@ -79,8 +66,6 @@ Sistem akan menampilkan beberapa kondisi ruangan seperti:
 - 🐙 Akun GitHub
 - 📝 Visual Studio Code
 - 🌎 Browser
-
-### 2️⃣ Membuat Repository
 
 Buat repository baru dengan nama:
 
