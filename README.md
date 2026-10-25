@@ -93,7 +93,25 @@ Sistem akan menampilkan beberapa kondisi ruangan seperti:
 - 📝 Visual Studio Code
 - 🌎 Browser
 
-Buat repository baru dengan nama:
+<!-- HEADER BANNER AURORA SYNTHWAVE -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=1,12,24,36&height=190&section=header&text=babay%20Semua!%20✨&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=42" width="100%" />
+</p>
 
-```text
-digital-twin-kamar-sewaan
+---
+
+### 🌌 Catatan Inspirasi
+
+> *"Setiap baris kode yang ditulis dengan penuh semangat adalah investasi terbaik untuk masa depan."*
+
+---
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=github&layout=compact&theme=synthwave&hide_border=true" alt="Top Languages" width="48%" />
+</p>
+
+---
+
+<!-- FOOTER BANNER AURORA -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=36,24,12,1&height=80&section=footer" width="100%" />
+</p>
