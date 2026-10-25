@@ -1,85 +1,72 @@
+<!-- HEADER BANNER: GRADIENT CYBERPUNK ANIMATION -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=Digital%20Twin%20Kamar%20Sewaan&fontSize=38&animation=fadeIn&fontAlignY=38" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,15,35&height=220&section=header&text=Hai%20Semua!%20👋&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=38" width="100%" />
+</p>
+
+<!-- EFEK MENGETIK TERMINAL GAYA GEMINI & TECH STACK -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00FFCC&center=true&vCenter=true&width=600&lines=Hai+Semua!+Selamat+Datang+di+Profilku!+✨;Driven+by+Curiosity+%26+Powered+by+Code;Crafting+Digital+Experiences+with+AI+🚀;Transforming+Ideas+into+Reality!+💻" alt="Typing SVG" />
+  </a>
+</p>
+
+---
+
+### 🌟 About Me & Vision
+
+<div align="center">
+
+> *"Kode adalah kanvas, logika adalah kuas, dan kreativitas adalah karya seninya."* — **Pesan Keren dari Gemini 🤖✨**
+
+</div>
+
+| 🚀 **Profil & Status** | 📌 **Keterangan** |
+| :--- | :--- |
+| 👤 **Panggilan** | Developer / Tech Enthusiast |
+| 🎯 **Fokus Utama** | Modern Web Development & AI Integration |
+| ⚡ **Mindset** | Continuous Learning & Building Cool Stuff |
+| 🌍 **Lokasi** | Indonesia 🇮🇩 |
+
+---
+
+### ⚡ My Dynamic Tech Stack
+
+<p align="center">
+  <!-- Grid icon animasi interaktif -->
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,vue,tailwind,nodejs,express,python,mongodb,postgresql,docker,git,github,vscode,figma&theme=dark" alt="Tech Stack" />
+</p>
+
+---
+
+### 📊 GitHub Activity & Real-time Stats
+
+<p align="center">
+  <!-- Dynamic Username & Stats Theme -->
+  <img src="https://github-readme-stats.vercel.app/api?username=github&show_icons=true&theme=cyberpunk&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=github&layout=compact&theme=cyberpunk&hide_border=true" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=1565C0&center=true&vCenter=true&width=600&lines=Pantau+Suhu+Ruangan+%F0%9F%8C%A1%EF%B8%8F;Pantau+Kelembapan+%F0%9F%92%A7;Kontrol+Lampu+%F0%9F%92%A1;Kondisi+Kamar+Real-time+%F0%9F%8F%A0" alt="Typing animation"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=github&theme=cyberpunk&hide_border=true" alt="GitHub Streak" width="100%" />
 </p>
 
-# 🚀 KELOMPOK RPL-AKT25.1 BADAZZZZZZ
+---
 
-> 💙 **BISMILLAH NILAI BAGUSSSSSS** 💙  
-> _Mohon maaf ya ibu kalau banyak salah masih pemula, sudah mengusahakan yang terbaik.  
-> Semoga project kami berjalan lancar dan mendapatkan hasil yang baik dan nilai meroket._
+### 🐍 Contribution Snake Animation
+
+<p align="center">
+  <a href="https://github.com/github">
+    <img src="https://raw.githubusercontent.com/github/github/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+  </a>
+</p>
 
 ---
 
-## 💻 Rekayasa Perangkat Lunak
+<!-- FOOTER ANIMASI ELEGANKAN -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=github&color=00ffcc&style=flat-square&label=Profile+Views" alt="Visitor Counter" />
+</p>
 
-**Kelompok:** RPL-AKT25.1 BADAZZZZZZ
-
----
-
-## 👨‍💻 Anggota Tim
-
-| No | Nama | Username GitHub | Peran |
-|:--:|---|---|---|
-| 🥇 1 | **Ahmad Hajid** | `@ahmadhajid1d` | 👨‍💻 Developer |
-| 🥈 2 | **Tri Bagus** | `@tri1bagusn` | 👨‍💻 Developer |
-| 🥉 3 | **Rafli Ahmad** | `@rafli14402` | 👨‍💻 Developer |
-
-**Kami akan membuat rancangan awal sistem Digital Twin Kamar Sewaan yang sederhana, mudah digunakan, dan dapat menampilkan kondisi kamar.**
-
-- 🏠 Membuat konsep **Digital Twin Kamar Sewaan**
-- 🌡️ Menampilkan **suhu ruangan**
-- 💧 Menampilkan **kelembapan ruangan**
-- 💡 Menampilkan **status lampu**
-- 📊 Membuat tabel informasi kondisi kamar
-- 🎨 Membuat tampilan yang sederhana dan menarik
-- 💻 Menyiapkan project untuk dikembangkan di GitHub
-
----
-
-# 🏠 Project
-
-## DIGITAL TWIN KAMAR SEWAAN
-
-Project ini merupakan rancangan sistem **Digital Twin** sederhana untuk memantau kondisi kamar sewaan.
-
-Sistem akan menampilkan beberapa kondisi ruangan seperti:
-
-| Sensor / Perangkat | Kondisi |
-|---|---|
-| 🌡️ Suhu | 28°C |
-| 💧 Kelembapan | 65% |
-| 💡 Lampu | Menyala |
-| 🏠 Status Kamar | Normal |
-
----
-
-# 📋 Perhitungan Kondisi Ruangan
-
-| No | Parameter | Nilai | Keterangan |
-|:--:|---|:--:|---|
-| 1 | 🌡️ Suhu | **28°C** | Normal |
-| 2 | 💧 Kelembapan | **65%** | Normal |
-| 3 | 💡 Lampu | **ON** | Menyala |
-| 4 | 🏠 Kondisi Kamar | **Baik** | Normal |
-
----
-
-# ⚙️ Setup Project
-
-### 1️⃣ Persiapan
-
-- 💻 Laptop / PC
-- 🌐 Internet
-- 🐙 Akun GitHub
-- 📝 Visual Studio Code
-- 🌎 Browser
-
-Buat repository baru dengan nama:
-
-```text
-digital-twin-kamar-sewaan
-```
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=35,15,2,0&height=100&section=footer" width="100%" />
+</p>
