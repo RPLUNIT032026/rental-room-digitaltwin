@@ -3,13 +3,11 @@
 ```mermaid
 classDiagram
     direction TB
-
     class agusz["agusz : Penghuni"] {
         id = P002
         nama = Agusz Nugraha
         noHP = 085142219806
     }
-
     class KamarA01["A01 : Kamar"] {
         noKamar = A02
         lantai = 2
